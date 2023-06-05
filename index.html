@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--Bootstrap Stylesheet-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Header Start-->
+
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="/" class="text-decoration-none text-white fs-5 fw-bold"
+          >GorillaCoffee</a
+        >
+
+        <div>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list" style="width: 36px; height: 36px"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!-- Flyout Navigation Start-->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+      <div
+        class="dropdown-nav__container container-xl d-flex align-items-start align-items-md-center"
+      >
+        <div class="row align-items-start">
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="img/1-coffe-flavour.jpg"
+                  class="img-fluid"
+                  width="553"
+                  height="746"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="col-10">
+                <h3>Amazing Flavour</h3>
+                <p>Find out more about our amazing flavour</p>
+                <p>Learn more <i class="bi bi-caret-right"></i></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="img/1-coffe-flavour.jpg"
+                  class="img-fluid"
+                  width="553"
+                  height="746"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="col-10">
+                <h3>Amazing Flavour</h3>
+                <p>Find out more about our amazing flavour</p>
+                <p>Learn more <i class="bi bi-caret-right"></i></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-4 mt-4">
+            <a href="#" class="row text-decoration-none">
+              <div class="col-2 col-sm-12 mb-4">
+                <img
+                  src="img/1-coffe-flavour.jpg"
+                  class="img-fluid"
+                  width="553"
+                  height="746"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="col-10">
+                <h3>Amazing Flavour</h3>
+                <p>Find out more about our amazing flavour</p>
+                <p>Learn more <i class="bi bi-caret-right"></i></p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler dropdown-nav__closeNavBtn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-x-circle"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Flyout Navigation End-->
+
+    <!-- Hero Start-->
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+        loading="lazy"
+        class="hero__video"
+      >
+        <source src="img/free-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero__content h-100 container-custom position-relative">
+        <div class="d-flex h-100 align-items-center hero__content-width">
+          <div class="text-white">
+            <h1 class="fw-bold mb-4 hero__heading">
+              Discover The Taste of Real Coffee.
+            </h1>
+            <p class="lead mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur, tempore.
+            </p>
+            <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button"
+              >Buy now</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <a href="#scroll-down" class="hero__scroll-btn">
+        Explore <i class="bi bi-arrow-bar-down"></i>
+      </a>
+    </section>
+
+    <a id="scroll-down"></a>
+    <!-- Hero End-->
+
+    <!--SECTION One START-->
+    <section class="steps container-custom">
+      <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex">
+          <img
+            src="img/1-coffe-flavour.jpg"
+            width="553"
+            height="746"
+            loading="lazy"
+            class="img-fluid pb-4 steps__section-thumbnail"
+          />
+        </div>
+
+        <div
+          class="col-12 col-sm-6 d-md-flex align-self-center justify-content-md-center"
+        >
+          <div class="steps__content-width">
+            <span>01</span>
+            <h1 class="h2 mb-4">Amazing Coffee Flavour</h1>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              labore id qui recusandae, error mollitia ea enim voluptatem est
+              deserunt consectetur, modi numquam quod et assumenda, amet
+              architecto a laudantium.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION One END-->
+
+    <!--SECTION Two START-->
+    <section class="steps steps--background">
+      <div class="container-custom">
+        <div class="row">
+          <div class="col-12 col-sm-6 d-md-flex order-sm-1">
+            <img
+              src="img/2-health-benefits-small.jpg"
+              width="553"
+              height="746"
+              loading="lazy"
+              class="img-fluid pb-4 steps__section-thumbnail"
+            />
+          </div>
+
+          <div
+            class="col-12 col-sm-6 d-md-flex align-self-center justify-content-md-center"
+          >
+            <div class="steps__content-width">
+              <span>02</span>
+              <h1 class="h2 mb-4">Amazing Coffee Flavour</h1>
+              <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                labore id qui recusandae, error mollitia ea enim voluptatem est
+                deserunt consectetur, modi numquam quod et assumenda, amet
+                architecto a laudantium.
+              </p>
+              <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION Two END-->
+
+    <!--SECTION Three START-->
+    <section class="steps container-custom">
+      <div class="row">
+        <div class="col-12 col-sm-6 d-md-flex">
+          <img
+            src="img/3-essential-nutrients.jpg"
+            width="553"
+            height="746"
+            loading="lazy"
+            class="img-fluid pb-4 steps__section-thumbnail"
+          />
+        </div>
+
+        <div
+          class="col-12 col-sm-6 d-md-flex align-self-center justify-content-md-center"
+        >
+          <div class="steps__content-width">
+            <span>03</span>
+            <h1 class="h2 mb-4">Amazing Coffee Flavour</h1>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              labore id qui recusandae, error mollitia ea enim voluptatem est
+              deserunt consectetur, modi numquam quod et assumenda, amet
+              architecto a laudantium.
+            </p>
+            <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION Three END-->
+
+    <!-- SECTION With 3 COL's START-->
+    <section class="bg bg-dark text-white py-4">
+      <div class="container-custom my-4">
+        <div class="row">
+          <div class="col-12 col-sm-4 mb-4">
+            <img
+              src="img/1-coffee-flavour-small.jpg"
+              width="441"
+              height="248"
+              loading="lazy"
+              class="mb-4 img-fluid"
+            />
+            <h3>Amazing Coffee Flavour</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              distinctio sint ducimus quisquam eos tempora sit dicta sequi
+              perferendis quos hic molestiae totam eligendi corporis suscipit
+              voluptatem, repudiandae quo labore!
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-4 mb-4">
+            <img
+              src="img/1-coffee-flavour-small.jpg"
+              width="441"
+              height="248"
+              loading="lazy"
+              class="mb-4 img-fluid"
+            />
+            <h3>Amazing Coffee Flavour</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              distinctio sint ducimus quisquam eos tempora sit dicta sequi
+              perferendis quos hic molestiae totam eligendi corporis suscipit
+              voluptatem, repudiandae quo labore!
+            </p>
+          </div>
+
+          <div class="col-12 col-sm-4 mb-4">
+            <img
+              src="img/1-coffee-flavour-small.jpg"
+              width="441"
+              height="248"
+              loading="lazy"
+              class="mb-4 img-fluid"
+            />
+            <h3>Amazing Coffee Flavour</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+              distinctio sint ducimus quisquam eos tempora sit dicta sequi
+              perferendis quos hic molestiae totam eligendi corporis suscipit
+              voluptatem, repudiandae quo labore!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION With 3 COL's END-->
+
+    <!--FOOTER START-->
+    <footer class="footer bg-dark text-white">
+      <div
+        class="container-custom d-flex justify-content-between align-items-center py-3 border-highlight"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="me-2 text-muted">
+            <i class="bi bi-cup" style="color: white"></i>
+            <span style="color: white">&copy; 2022 GorillaCoffee</span>
+          </a>
+        </div>
+
+        <ul
+          class="nav -col-md-4 justify-content-end list-unstyled d-flex text-white"
+        >
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-twitter" style="color: white"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-instagram" style="color: white"></i
+            ></a>
+          </li>
+          <li class="ms-3">
+            <a class="text-muted" href="#"
+              ><i class="bi bi-facebook" style="color: white"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
